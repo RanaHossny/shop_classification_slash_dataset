@@ -36,8 +36,8 @@ The dataset is structured as follows:
 │   ├── Stationary1.jpg<br>
 │   └── …<br>
 └── Nutrition/</p>
-    ├── Nutrition1.jpg <br>
-    └── ... </br>
+|    ├── Nutrition1.jpg <br>
+|    └── ... </br>
  
 
 # Preprocessing Images for EfficientNet Model 
