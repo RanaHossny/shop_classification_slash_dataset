@@ -1,4 +1,4 @@
-# shop_classication_slash_dataset
+# shop_classification_slash_dataset
 # video Link :
 https://drive.google.com/drive/folders/1lAIpGDvmR_vQHA-0keOgKxM1DHE64wtA?usp=sharing
 # Dataset Overview
