@@ -4,16 +4,17 @@ https://drive.google.com/drive/folders/1lAIpGDvmR_vQHA-0keOgKxM1DHE64wtA?usp=sha
 # Dataset Overview
 The dataset includes images categorized into different classes, such as Accessories, Beauty, Fashion, Home, Games, Stationary, and Nutrition. Each class contains a varying number of images, resulting in an imbalanced distribution across categories.
 The dataset suffers from imbalanced class distribution, with Fashion dominating and other classes having significantly fewer samples. <br>
-Number of classes: 7 <br>
-Total number of images: 768 <br>
-Number of images per class:<br>
--Accessories: 83 <br>
--Beauty: 47 <br>
--Fashion: 359 <br>
--Games: 36 <br>
--Home: 112 <br>
--Nutrition: 29 <br>
--Stationary: 102 <br>
+Number of classes: 7 
+Total number of images: 768 
+Number of images per class:
+- Accessories: 83 
+- Beauty: 47 
+- Fashion: 359 
+- Games: 36 
+- Home: 112 
+- Nutrition: 29 
+- Stationary: 102 
+
 
 # Dataset Structure
 The dataset is structured as follows:
