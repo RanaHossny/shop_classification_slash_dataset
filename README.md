@@ -3,7 +3,16 @@
 # Dataset Overview
 The dataset includes images categorized into different classes, such as Accessories, Beauty, Fashion, Home, Games, Stationary, and Nutrition. Each class contains a varying number of images, resulting in an imbalanced distribution across categories.
 The dataset suffers from imbalanced class distribution, with Fashion dominating and other classes having significantly fewer samples. 
-
+Number of classes: 7
+Total number of images: 768
+Number of images per class:
+Accessories: 83
+Beauty: 47
+Fashion: 359
+Games: 36
+Home: 112
+Nutrition: 29
+Stationary: 102
 
 # Dataset Structure
 The dataset is structured as follows:
@@ -27,8 +36,8 @@ The dataset is structured as follows:
 │   ├── Stationary1.jpg<br>
 │   └── …<br>
 └── Nutrition/</p>
-    ├── Nutrition1.jpg
-    └── ...
+    ├── Nutrition1.jpg <br>
+    └── ... </br>
  
 
 # Preprocessing Images for EfficientNet Model 
