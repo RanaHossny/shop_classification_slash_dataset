@@ -18,6 +18,7 @@ Stationary: 102 <br>
 # Dataset Structure
 The dataset is structured as follows:
 <p class="has-line-data" data-line-start="0" data-line-end="20">slash-data/<br>
+<sub>
 ├── Accessories/<br>
 │   ├── Accessories1.jpg<br>
 │   └── …<br>
@@ -37,9 +38,10 @@ The dataset is structured as follows:
 │   ├── Stationary1.jpg<br>
 │   └── …<br>
 └── Nutrition/<br>
-|    ├── Nutrition1.jpg <br>
-|    └── ... <br>
- 
+    ├── Nutrition1.jpg <br>
+    └── ... <br>
+</sub>
+
 
 # Preprocessing Images for EfficientNet Model 
 To ensure compatibility with the EfficientNet model, which requires input images of size 224x224x3, we must preprocess the dataset.<br>
