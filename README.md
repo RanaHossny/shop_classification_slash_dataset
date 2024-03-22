@@ -7,18 +7,18 @@ The dataset suffers from imbalanced class distribution, with Fashion dominating 
 Number of classes: 7 <br>
 Total number of images: 768 <br>
 Number of images per class:<br>
-Accessories: 83 <br>
-Beauty: 47 <br>
-Fashion: 359 <br>
-Games: 36 <br>
-Home: 112 <br>
-Nutrition: 29 <br>
-Stationary: 102 <br>
+-Accessories: 83 <br>
+-Beauty: 47 <br>
+-Fashion: 359 <br>
+-Games: 36 <br>
+-Home: 112 <br>
+-Nutrition: 29 <br>
+-Stationary: 102 <br>
 
 # Dataset Structure
 The dataset is structured as follows:
-<p class="has-line-data" data-line-start="0" data-line-end="20">slash-data/<br>
 <pre><code>
+slash-data
 ├── Accessories/
 │   ├── Accessories1.jpg
 │   └── …
