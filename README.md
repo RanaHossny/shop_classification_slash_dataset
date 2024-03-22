@@ -2,6 +2,8 @@
 
 # Dataset Overview
 The dataset includes images categorized into different classes, such as Accessories, Beauty, Fashion, Home, Games, Stationary, and Nutrition. Each class contains a varying number of images, resulting in an imbalanced distribution across categories.
+The dataset suffers from imbalanced class distribution, with Fashion dominating and other classes having significantly fewer samples. 
+
 
 # Dataset Structure
 The dataset is structured as follows:
@@ -27,10 +29,9 @@ The dataset is structured as follows:
 └── Nutrition/</p>
     ├── Nutrition1.jpg
     └── ...
+ 
 
-The dataset suffers from imbalanced class distribution, with Fashion dominating and other classes having significantly fewer samples. 
-
-<p class="has-line-data" data-line-start="0" data-line-end="3">Preprocessing Images for EfficientNet Model :<br>
+# Preprocessing Images for EfficientNet Model 
 To ensure compatibility with the EfficientNet model, which requires input images of size 224x224x3, we must preprocess the dataset.<br>
 Preprocessing Steps</p>
 <ol>
@@ -45,3 +46,26 @@ Normalize the tensor pixel values using the mean [0.485, 0.456, 0.406] and stand
 <p class="has-line-data" data-line-start="11" data-line-end="14">Oversampling To deal with Imbalanced Dataset<br>
 Strategy: Increase the number of instances in under-represented classes.<br>
 Implementation: Use oversampling techniques to augment the minority classes either by duplicating existing images or applying image augmentation techniques to create plausible variations. This approach aims to achieve a more balanced class distribution, enhancing model performance on minority classes.</p>
+
+# Modified EfficientNet Model Architecture
+
+The `ModifiedEfficientNet` class is a neural network model designed for multi-class classification tasks. It is based on the EfficientNet architecture with custom modifications.
+
+## Model Components:
+
+- Convolutional Layers
+- Transpose Convolutional Layer
+- Base EfficientNet Model
+
+**Note:**
+- The model parameters are optimized using the Adam optimizer with a learning rate of `0.001`.
+- The loss function used for optimization is the Cross Entropy Loss.
+
+## Training Results:
+
+After training the `ModifiedEfficientNet` model for 20 epochs, the following results were obtained:
+
+- Average Train Loss: 0.0047
+- Validation Accuracy: 85.22%
+- Test Accuracy: 87.93%
+
