@@ -18,29 +18,30 @@ Stationary: 102 <br>
 # Dataset Structure
 The dataset is structured as follows:
 <p class="has-line-data" data-line-start="0" data-line-end="20">slash-data/<br>
-<sub>
-├── Accessories/<br>
-│   ├── Accessories1.jpg<br>
-│   └── …<br>
-├── Beauty/<br>
-│   ├── Beauty1.jpg<br>
-│   └── …<br>
-├── Fashion/<br>
-│   ├── Fashion1.jpg<br>
-│   └── …<br>
-├── Home/<br>
-│   ├── Home1.jpg<br>
-│   └── …<br>
-├── Games/<br>
-│   ├── Games1.jpg<br>
-│   └── …<br>
-├── Stationary/<br>
-│   ├── Stationary1.jpg<br>
-│   └── …<br>
-└── Nutrition/<br>
-    ├── Nutrition1.jpg <br>
-    └── ... <br>
-</sub>
+<pre><code>
+├── Accessories/
+│   ├── Accessories1.jpg
+│   └── …
+├── Beauty/
+│   ├── Beauty1.jpg
+│   └── …
+├── Fashion/
+│   ├── Fashion1.jpg
+│   └── …
+├── Home/
+│   ├── Home1.jpg
+│   └── …
+├── Games/
+│   ├── Games1.jpg
+│   └── …
+├── Stationary/
+│   ├── Stationary1.jpg
+│   └── …
+└── Nutrition/
+    ├── Nutrition1.jpg
+    └── ...
+</code></pre>
+
 
 
 # Preprocessing Images for EfficientNet Model 
