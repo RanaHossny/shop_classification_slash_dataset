@@ -1,5 +1,6 @@
 # shop_classication_slash_dataset
-
+# video Link :
+https://drive.google.com/drive/folders/1lAIpGDvmR_vQHA-0keOgKxM1DHE64wtA?usp=sharing
 # Dataset Overview
 The dataset includes images categorized into different classes, such as Accessories, Beauty, Fashion, Home, Games, Stationary, and Nutrition. Each class contains a varying number of images, resulting in an imbalanced distribution across categories.
 The dataset suffers from imbalanced class distribution, with Fashion dominating and other classes having significantly fewer samples. 
