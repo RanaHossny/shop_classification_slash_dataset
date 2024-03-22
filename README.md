@@ -5,26 +5,26 @@ The dataset includes images categorized into different classes, such as Accessor
 
 # Dataset Structure
 The dataset is structured as follows:
-slash-data/
-├── Accessories/
-│   ├── Accessories1.jpg
-│   └── ...
-├── Beauty/
-│   ├── Beauty1.jpg
-│   └── ...
-├── Fashion/
-│   ├── Fashion1.jpg
-│   └── ...
-├── Home/
-│   ├── Home1.jpg
-│   └── ...
-├── Games/
-│   ├── Games1.jpg
-│   └── ...
-├── Stationary/
-│   ├── Stationary1.jpg
-│   └── ...
-└── Nutrition/
+<p class="has-line-data" data-line-start="0" data-line-end="20">slash-data/<br>
+├── Accessories/<br>
+│   ├── Accessories1.jpg<br>
+│   └── …<br>
+├── Beauty/<br>
+│   ├── Beauty1.jpg<br>
+│   └── …<br>
+├── Fashion/<br>
+│   ├── Fashion1.jpg<br>
+│   └── …<br>
+├── Home/<br>
+│   ├── Home1.jpg<br>
+│   └── …<br>
+├── Games/<br>
+│   ├── Games1.jpg<br>
+│   └── …<br>
+├── Stationary/<br>
+│   ├── Stationary1.jpg<br>
+│   └── …<br>
+└── Nutrition/</p>
     ├── Nutrition1.jpg
     └── ...
 The dataset suffers from imbalanced class distribution, with Fashion dominating and other classes having significantly fewer samples. 
