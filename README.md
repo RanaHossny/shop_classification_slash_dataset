@@ -43,7 +43,7 @@ Resize the padded images to 224x224 pixels. This step is crucial for maintaining
 Convert the resized images into PyTorch tensors. This conversion facilitates the utilization of GPU acceleration during training.<br>
 Normalize the tensor pixel values using the mean [0.485, 0.456, 0.406] and standard deviation [0.229, 0.224, 0.225] values. Normalization standardizes the input data and improves model convergence.</li>
 </ol>
-<p class="has-line-data" data-line-start="11" data-line-end="14">Oversampling To deal with Imbalanced Dataset<br>
+# Oversampling To deal with Imbalanced Dataset: 
 Strategy: Increase the number of instances in under-represented classes.<br>
 Implementation: Use oversampling techniques to augment the minority classes either by duplicating existing images or applying image augmentation techniques to create plausible variations. This approach aims to achieve a more balanced class distribution, enhancing model performance on minority classes.</p>
 
